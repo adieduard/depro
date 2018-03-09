@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://www.depro.co.il/</loc>
+    <lastmod>2018-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://www.depro.co.il/index.html</loc>
+    <lastmod>2018-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://www.depro.co.il/details.html?id=who</loc>
+    <lastmod>2018-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://www.depro.co.il/aboutus.html</loc>
+    <lastmod>2018-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+	</url>
+	<url>
+		<loc>http://www.depro.co.il/contactus.html</loc>
+    <lastmod>2018-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+	</url>
+</urlset>
