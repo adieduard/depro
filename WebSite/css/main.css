@@ -127,17 +127,19 @@ h1#header {
 }
 #main-article {
     height: 200px;
+    padding-left: 250px;
+    padding-right: 75px;
+    margin-bottom: 30px;
 }
 
 #details-article {
     margin-top:50px;
+    align-content: center;
 }
 
 article {
     position: relative;
-    padding-left: 250px;
-    padding-right: 75px;
-    margin-bottom: 30px;
+    
     background-color: #FFF;
     -moz-border-radius: 150px;
     -webkit-border-radius: 150px;
@@ -190,15 +192,19 @@ article {
         color: #888;
     }
 
+#main-article a {
+    position: absolute;
+}
+
     article a {
-        position: absolute;
-        display: block;
+        
+        /*display: block;
         top: 0;
-        left: 0px;
-        height: 100%;
-        line-height: 150px;
+        left: 0px;*/
+        /*height: 100%;*/
+        /*line-height: 150px;*/
         text-align: center;
-        width: 100%;
+        /*width: 100%;*/
         background-color: #FFF;
         font-size: 60px;
         font-style: italic;
@@ -227,9 +233,9 @@ article {
             width: 160px;
         }
 
-    article:hover a {
-        opacity: 1;
-    }
+article:hover a {
+    opacity: 1;
+}
 
 .bloc article {
     padding: 10px;
@@ -269,3 +275,46 @@ article {
         line-height: 255px;
         font-size: 40px;
     }
+
+.center-grey {
+    background: #f2f2f2;
+}
+
+.slider {
+    /*position: relative;*/
+    padding: 5px;
+    padding: 5px 10%;
+    margin: 30px 80px;
+    /*width: 900px;
+    margin: auto;
+    margin-top: 40px;*/
+}
+
+.slide {
+    float: left;
+    box-shadow: 0px 0px 15px #999;
+}
+
+.arrows-right {
+    float: right;
+    padding-left: 20px;
+}
+
+.arrows-left {
+    float: left;
+    padding-right: 20px;
+}
+
+    .arrows-right img {
+        height: 100px;
+    }
+    .arrows-left img {
+        height: 100px;
+    }
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: #222;
+}
